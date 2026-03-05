@@ -12,3 +12,6 @@
 ```bash
 cd server
 mvnw spring-boot:run
+
+cd client
+mvn javafx:run

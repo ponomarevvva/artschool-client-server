@@ -1,0 +1,17 @@
+### 1) Список курсов
+GET http://localhost:8080/courses
+
+### 2) Добавить курс
+POST http://localhost:8080/courses
+Content-Type: application/json
+
+{
+  "title": "Скульптура"
+}
+
+### 3) Удалить курс (поменяй id)
+DELETE http://localhost:8080/courses/3
+
+
+### 4) Список студентов
+GET http://localhost:8080/students
